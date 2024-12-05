@@ -1,0 +1,124 @@
+.class1 .class2{
+    background-color: red;
+}
+
+.class1.class2{
+    background-color: blue;
+}
+
+
+div[data-color]{
+    color:red
+}
+div[data-background]{
+    color:yellow
+}
+
+
+[class*="foo"]{
+    color:red
+}
+
+[class~="color-red"]{
+    color:red;
+}
+
+[class^="foo-"]{
+    color:black
+}
+
+
+[class$="file"]{
+    color:pink
+
+}
+
+
+div span{
+    background-color: pink;
+}
+
+div>span{
+    background-color: pink;
+}
+
+div~span{
+    background-color: pink;
+}
+
+div+span{
+    background-color: pink;
+}
+
+p~p{
+    color: rgb(42, 165, 63);
+
+}
+
+.important{
+    color:blue
+}
+ .warning{
+    color: red;
+ }
+ .warning.important{
+    color:black
+ }
+
+
+ p:last-of-type{
+    color: bisque;
+ }
+
+ 
+ h1:last-of-type{
+    color:bisque;
+ }
+
+ 
+ h2:last-of-type{
+    color: bisque;
+ }
+
+ input:in-range{
+    text-align: center;
+    border: 1px solid blue;
+ } 
+
+ html{
+    margin: 0;
+    padding: 0;
+
+ }
+.b-m{
+    margin: 10px auto;
+    padding: 5px;
+    background-color: rgb(223, 121, 234);
+    border: 2px soild #100d0d;
+    width: 300px;
+    height: 200px;
+    box-sizing: border-box;
+    text-align:center ;
+}
+
+#back{
+    height: 500px;
+    width: auto;
+    background-color:rgb(160, 14, 14);
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrBwARZpC1OVgQCHh9JbNmL52o4rWFjVwlEw&s');
+    /* background-repeat: repeat-y; */
+     /* background-repeat: repeat-x; */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: right top;
+
+}
+
+.comtainer{
+    display: flex;
+}
+
+
+
+
+
