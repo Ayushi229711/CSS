@@ -1,0 +1,19 @@
+.container{
+    background-color:  rgb(9, 9, 64);
+    
+    color: white;
+    display:flex;
+    justify-content: space-evenly;
+}
+.item2{
+    color: rgb(231, 173, 37);
+
+}
+.item{
+    color: rgb(250, 248, 244);
+   
+}
+#button{
+    background-color: rgb(234, 166, 64);
+}
+
